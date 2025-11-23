@@ -116,7 +116,8 @@ function calculate() {
 
 </body>
 </html>
-<!DOCTYPE html>
+
+
 <html>
 <head>
     <title>Pharma Tablet Coating Calculator</title>
