@@ -1,14 +1,105 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONCO Tablet Coating | PRE 376</title>
 
-        <!-- OWNERS -->
-        <div class="owners">
-            <h2>Owners & Operators</h2>
-            <p><b>Kamal Khaira</b> &nbsp; | &nbsp; <b>Archit Badyal</b></p>
+    <style>
+        body {
+            margin: 0;
+            background: #f0f4fa;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(145deg, #0d47a1, #1a73e8);
+            padding: 55px;
+            text-align: center;
+            color: white;
+            border-radius: 0 0 40px 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 46px;
+            font-weight: bold;
+        }
+
+        .header p {
+            margin-top: 12px;
+            font-size: 22px;
+            opacity: 0.9;
+        }
+
+        /* CARD SECTION */
+        .main-box {
+            width: 60%;
+            margin: 60px auto;
+            background: white;
+            border-radius: 22px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+        }
+
+        .main-box h2 {
+            font-size: 32px;
+            color: #0d47a1;
+        }
+
+        .owners-box {
+            margin-top: 25px;
+            background: #1565c0;
+            padding: 25px;
+            border-radius: 14px;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 1.7;
+        }
+
+        /* FOOTER */
+        .footer {
+            margin-top: 50px;
+            background: #0d47a1;
+            color: white;
+            padding: 18px;
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>ONCO Tablet Coating</h1>
+        <p>PRE 376 – Advanced Coating Technology</p>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-box">
+        <h2>Owners & Operators</h2>
+
+        <div class="owners-box">
+            Kamal Khaira <br>
+            &amp; <br>
+            Archit Badyal
         </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        © 2025 ONCO Coating | PRE 376
+    </div>
 
 </body>
 </html>
+
 
 
 <html>
