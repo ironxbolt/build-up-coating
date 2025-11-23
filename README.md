@@ -1,4 +1,24 @@
 Made By Archit Badyal
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* Tablet pharma background */
+    background: 
+        linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)),
+        url('https://i.imgur.com/j2wQd3M.jpg'); /* pharma coating image */
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+background: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://i.imgur.com/j2wQd3M.jpg');
+background:
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url('https://i.imgur.com/0B6o2jY.jpeg');
 
 
 <html>
