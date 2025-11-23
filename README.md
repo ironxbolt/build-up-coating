@@ -1,3 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma Manufacturing | Tablet Coating & Compression</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+        }
+
+        /* ----------- HEADER ----------- */
+        .header {
+            background: url('https://i.imgur.com/0Y4F8aR.jpg') center/cover no-repeat;
+            height: 330px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 3px 6px rgba(0,0,0,0.3);
+        }
+        .header h1 {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        /* ----------- NAV BAR ----------- */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #0d47a1;
+            padding: 12px;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 20px;
+            font-size: 17px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: #90caf9;
+        }
+
+        /* ----------- MAIN SECTION ----------- */
+        .section {
+            padding: 40px 10%;
+        }
+
+        .section-title {
+            font-size: 30px;
+            font-weight: bold;
+            color: #0d47a1;
+            margin-bottom: 20px;
+            border-left: 6px solid #0d47a1;
+            padding-left: 10px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 30%;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.04);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+            color: #0d47a1;
+        }
+
+        .card p {
+            padding: 0 15px 20px 15px;
+            color: #444;
+            font-size: 15px;
+        }
+
+        /* ----------- FOOTER ----------- */
+        .footer {
+            background: #0d47a1;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Pharma Tablet Manufacturing & Coating</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Tablet Compression</a>
+        <a href="#">Coating</a>
+        <a href="#">R&D</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="section">
+        <div class="section-title">Our Pharma Expertise</div>
+
+        <div class="cards">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://i.imgur.com/Gy7qC23.jpeg" alt="Tablet Compression">
+                <h3>Tablet Compression</h3>
+                <p>
+                    High-precision tablet press machines ensuring uniform hardness, thickness and friability.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://i.imgur.com/9ERyUjO.jpeg" alt="Tablet Coating">
+                <h3>Tablet Coating</h3>
+                <p>
+                    Advanced coating technologies: Film coating, sugar coating, enteric coating and more.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://i.imgur.com/kVvF7d3.jpeg" alt="Chemical Ingredients">
+                <h3>API & Excipients</h3>
+                <p>
+                    Premium quality Active Pharmaceutical Ingredients and excipients for formulation.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 Pharma Manufacturing Solutions | All Rights Reserved
+    </div>
+
+</body>
+</html>
+
 
 <html>
 <head>
