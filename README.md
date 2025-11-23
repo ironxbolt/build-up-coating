@@ -7,13 +7,6 @@
             <p><b>Kamal Khaira</b> &nbsp; | &nbsp; <b>Archit Badyal</b></p>
         </div>
 
-    </div>
-
-    <!-- FOOTER -->
-    <div class="footer">
-        © 2025 ONCO Coating Tablets – PRE 376 | All Rights Reserved
-    </div>
-
 </body>
 </html>
 
