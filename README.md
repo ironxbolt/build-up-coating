@@ -128,9 +128,9 @@ function calculateBuild() {
 
     document.getElementById("result").style.display = "block";
     document.getElementById("result").innerHTML =
-        "<b>Average Weight During Spraying:</b> " + avg_spray.toFixed(2) + " mg<br>" +
-        "<b>Weight Gain:</b> " + gain.toFixed(2) + " mg<br>" +
-        "<b>% Build-Up:</b> " + buildup.toFixed(2) + "%";
+        "<b>Average Weight During Spraying:</b> " + avg_spray + " mg<br>" +
+        "<b>Weight Gain:</b> " + gain + " mg<br>" +
+        "<b>% Build-Up:</b> " + buildup + "%";
 }
 </script>
 
