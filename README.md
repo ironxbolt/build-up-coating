@@ -1,63 +1,66 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pharma Manufacturing | Tablet Coating & Compression</title>
+    <title>ONCO Coating Tablets | PRE 376</title>
 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #eef2f7;
+            background: #f4f7fb;
         }
 
-        /* ----------- HEADER ----------- */
+        /* HEADER */
         .header {
-            background: url('https://i.imgur.com/0Y4F8aR.jpg') center/cover no-repeat;
-            height: 330px;
+            background: url('https://i.imgur.com/9ERyUjO.jpeg') center/cover no-repeat;
+            height: 350px;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             color: white;
-            text-shadow: 0 3px 6px rgba(0,0,0,0.3);
-        }
-        .header h1 {
-            font-size: 42px;
-            font-weight: bold;
+            text-shadow: 0 3px 6px rgba(0,0,0,0.4);
         }
 
-        /* ----------- NAV BAR ----------- */
+        .header h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* NAVBAR */
         .navbar {
+            background: #0d47a1;
+            padding: 15px;
             display: flex;
             justify-content: center;
-            background: #0d47a1;
-            padding: 12px;
         }
 
         .navbar a {
             color: white;
-            margin: 0 20px;
-            font-size: 17px;
+            margin: 0 22px;
             text-decoration: none;
+            font-size: 18px;
             font-weight: bold;
         }
+
         .navbar a:hover {
             color: #90caf9;
         }
 
-        /* ----------- MAIN SECTION ----------- */
+        /* SECTION */
         .section {
-            padding: 40px 10%;
+            padding: 50px 10%;
         }
 
-        .section-title {
-            font-size: 30px;
-            font-weight: bold;
+        .title {
+            font-size: 32px;
             color: #0d47a1;
+            font-weight: bold;
             margin-bottom: 20px;
             border-left: 6px solid #0d47a1;
-            padding-left: 10px;
+            padding-left: 12px;
         }
 
         .cards {
@@ -70,13 +73,13 @@
             width: 30%;
             background: white;
             border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             overflow: hidden;
             transition: 0.3s;
         }
 
         .card:hover {
-            transform: scale(1.04);
+            transform: scale(1.05);
         }
 
         .card img {
@@ -92,75 +95,94 @@
 
         .card p {
             padding: 0 15px 20px 15px;
+            font-size: 16px;
             color: #444;
-            font-size: 15px;
         }
 
-        /* ----------- FOOTER ----------- */
+        /* OWNERS SECTION */
+        .owners {
+            margin-top: 50px;
+            background: #0d47a1;
+            color: white;
+            padding: 35px;
+            text-align: center;
+            border-radius: 12px;
+        }
+
+        .owners h2 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .owners p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* FOOTER */
         .footer {
             background: #0d47a1;
             color: white;
-            padding: 15px;
             text-align: center;
-            margin-top: 40px;
+            padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- HEADER -->
     <div class="header">
-        <h1>Pharma Tablet Manufacturing & Coating</h1>
+        <h1>ONCO COATING TABLETS – PRE 376</h1>
     </div>
 
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
     <div class="navbar">
         <a href="#">Home</a>
-        <a href="#">Tablet Compression</a>
-        <a href="#">Coating</a>
+        <a href="#">Coating Process</a>
+        <a href="#">Technology</a>
         <a href="#">R&D</a>
         <a href="#">Contact</a>
     </div>
 
-    <!-- Main Content -->
+    <!-- SECTION -->
     <div class="section">
-        <div class="section-title">Our Pharma Expertise</div>
+        <div class="title">Our Expertise in Tablet Coating</div>
 
         <div class="cards">
 
-            <!-- Card 1 -->
             <div class="card">
-                <img src="https://i.imgur.com/Gy7qC23.jpeg" alt="Tablet Compression">
-                <h3>Tablet Compression</h3>
-                <p>
-                    High-precision tablet press machines ensuring uniform hardness, thickness and friability.
-                </p>
+                <img src="https://i.imgur.com/Gy7qC23.jpeg">
+                <h3>Advanced Tablet Coating</h3>
+                <p>High-performance coating systems ensuring uniformity, gloss, and stability for ONCO tablets.</p>
             </div>
 
-            <!-- Card 2 -->
             <div class="card">
-                <img src="https://i.imgur.com/9ERyUjO.jpeg" alt="Tablet Coating">
-                <h3>Tablet Coating</h3>
-                <p>
-                    Advanced coating technologies: Film coating, sugar coating, enteric coating and more.
-                </p>
+                <img src="https://i.imgur.com/9ERyUjO.jpeg">
+                <h3>PRE 376 Formula</h3>
+                <p>Industry-leading PRE 376 coating formulation designed for precision and therapeutic safety.</p>
             </div>
 
-            <!-- Card 3 -->
             <div class="card">
-                <img src="https://i.imgur.com/kVvF7d3.jpeg" alt="Chemical Ingredients">
-                <h3>API & Excipients</h3>
-                <p>
-                    Premium quality Active Pharmaceutical Ingredients and excipients for formulation.
-                </p>
+                <img src="https://i.imgur.com/kVvF7d3.jpeg">
+                <h3>Controlled Release Systems</h3>
+                <p>Innovative polymer coating for delayed-release, enteric and sustained-release technologies.</p>
             </div>
 
         </div>
+
+        <!-- OWNERS -->
+        <div class="owners">
+            <h2>Owners & Operators</h2>
+            <p><b>Kamal Khaira</b> &nbsp; | &nbsp; <b>Archit Badyal</b></p>
+        </div>
+
     </div>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <div class="footer">
-        © 2025 Pharma Manufacturing Solutions | All Rights Reserved
+        © 2025 ONCO Coating Tablets – PRE 376 | All Rights Reserved
     </div>
 
 </body>
