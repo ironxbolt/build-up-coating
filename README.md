@@ -86,7 +86,7 @@
         <h2>Owners & Operators</h2>
 
         <div class="owners-box">
-            Kamal Khaira <br>
+           Kamal Sharma <br>
             &amp; <br>
             Archit Badyal
         </div>
